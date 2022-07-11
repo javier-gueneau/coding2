@@ -14,7 +14,7 @@ body{
 }
 
 h2{
-    background-color: palegoldenrod;
+    background-color: aquamarine;
     padding: 1%;
     width: 15%;
 }
@@ -31,8 +31,13 @@ nav{
     text-decoration: none;
 }
 
-a{
-    text-decoration: none;
+a, p{
+    /* text-decoration: none; */
     color: black;
+    margin-top: 25px;
+}
+
+a:hover{
+    color: red;
 }
 
