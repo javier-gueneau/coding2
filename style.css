@@ -33,6 +33,19 @@ nav, ul{
     margin-top: 2%;
 }
 
+.ul1{
+    background-color: gold;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    width: 25%;
+    /* padding: 1%; */
+    /* gap: 1%; */
+    /* height: 100px; */
+    text-decoration: none;
+    margin-top: 2%;
+}
+
 p{
     /* text-decoration: none; */
     color: black;
