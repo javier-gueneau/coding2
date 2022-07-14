@@ -8,7 +8,8 @@ function getUserName(element){
 }
 
 function makeCoderCard(data){
-    var res = '${data.id}';
+    var res = `<h3>${data.id}</h3>
+                <p>${data.login}</p>   `;
     
     
     /* '<div class="card">
