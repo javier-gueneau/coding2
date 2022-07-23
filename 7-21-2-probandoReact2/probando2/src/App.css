@@ -1,31 +1,5 @@
-*{
-  margin: 0%;
-  padding: 0%;
-  box-sizing: border-box;
-}
-
-.Card{
-  background-color: yellow;
-  color: cyan;
-  margin-bottom: 15px;
-}
-
-.btn-btn{
-    /* height: 30px;
-    width: 30px; */
-  padding: 1%;
-}
-
 .App {
   text-align: center;
-  gap: 6%;
-  margin-bottom: 35px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: whitesmoke;
-  height: 400px;
 }
 
 .App-logo {
