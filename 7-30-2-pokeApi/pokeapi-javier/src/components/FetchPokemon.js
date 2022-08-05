@@ -24,7 +24,7 @@ const FetchPokemon=({inputs,setInputs})=>{
   return(
     <div>
         {console.log('xx')}
-        <button onClick={callPokemon} >useEffect</button>
+        <button onClick={callPokemon} >Fetch</button>
 
         {/* <button onClick={probar} >probar</button> */}
 
