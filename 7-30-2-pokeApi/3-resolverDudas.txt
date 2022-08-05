@@ -1,0 +1,9 @@
+1-ejemplo actual
+¿cómo hacerlo Pokeapi, con useEffect en App.js?
+(Y con botón)
+para que se ejecute (Y no se ejecute solo el useEffect)
+
+
+2-cómo hacerlo metiendo el useEffect en un componente.
+¿Cómo paso propiedades en un boton?
+(¿Debo en este caso pasar propiedades en el boton?)

@@ -8,6 +8,8 @@ function App() {
 
   const [currentTask,setCurrentTask]=useState("");
 
+
+
   /* const inputF = (e)=>{
     console.log(e,"this is input") //undefined
     console.log(e.target) //
@@ -17,6 +19,7 @@ function App() {
 
   const addTask =(e)=> {
     e.preventDefault()
+    
     // console.log(e.target) //button aa button
     // console.log(e.target.value) //
     // console.log(e.target.name) //
@@ -47,6 +50,7 @@ function App() {
         <thead>
           <tr>
           <th>Tasks</th>
+          <th>Done</th>
           <th>Delete</th>
             </tr>
         </thead>
