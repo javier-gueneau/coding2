@@ -21,7 +21,7 @@ const App = props=> {
 
   return (
     <div className="App">
-      {<button onClick={Prueba} >Fetch poke!</button>}
+      {<button onClick={Prueba} >Axios poke!</button>}
       
       {responseData.map((item)=>{
         return(
