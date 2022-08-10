@@ -1,9 +1,7 @@
 import React, {useState,useEffect} from 'react';
 
-
 const FetchPokemon=({inputs,setInputs})=>{
 
-    /* const{inputs,setInputs}=props; */
     console.log('tt')
 
     const callPokemon =()=>{
@@ -12,25 +10,17 @@ const FetchPokemon=({inputs,setInputs})=>{
           return response.json()
         })
         .then(response=>{
-          /* setInputs({
-            people:response.results
-          }) */
-          /* console.log(response.results) */
+          /* console.log(response) */
           setInputs(response.results)
         })
-        
     }
 
   return(
     <div>
         {console.log('xx')}
         <button onClick={callPokemon} >Fetch</button>
-
-        {/* <button onClick={probar} >probar</button> */}
-
     </div>
   );
-
 }
 
 export default FetchPokemon;

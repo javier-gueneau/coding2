@@ -14,7 +14,8 @@ const Form =props=>{
 
     const onChange=e=>{
 
-        /* console.log(props.inputs) */
+        console.log(props.inputs)
+        console.log(inputs)
 
         if(e.target.name=="firstName"){
             if(e.target.value.length <3){
