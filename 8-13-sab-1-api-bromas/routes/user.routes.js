@@ -1,4 +1,4 @@
-const UserController=require('../controllers/user.controller');
+const UserController=require('../controllers/user.controller'); //¿y esto por que?? ¿Qué es lo que se está importando?
 
 module.exports=app=>{
     app.post('/api/user/create', UserController.createNewUser)
