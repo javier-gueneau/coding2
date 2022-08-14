@@ -1,0 +1,9 @@
+//BUSCAR
+module.exports.lookUp=(req,res)=>{ 
+    User.findById(req.params.id)
+    .then(data=>{
+        res.json({data:data})
+    }).catch(error=>{
+        res.status(500).json({mensaje:error})
+    })
+}
